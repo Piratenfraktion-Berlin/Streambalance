@@ -68,6 +68,9 @@
 
       <h1>Streambalance</h1>
       <p>Dies ist der Streambalacing Server die Piratenfraktion Berlin. Dieser Dienst verteilt die Streamingclients auf mehrere Server, die alle von Freiwilligen zur Verf&uuml;gung gestellt wurden<p>
+      {% if slotsavailable == 0 %}
+  		<h2>Im Moment läuft kein Stream</h2>
+	  {% endif %
       <div id='chart_div' style="left:50%;margin:0 0 0 -300px"></div>
       <p>Im Moment ist Platz f&uuml;r {{ slotsavailable }} Zuh&ouml;hrer, davon sind {{ listeners }} Pl&auml;tze belegt, es sind also noch {{ freeslots  }} frei.<p> 
 
