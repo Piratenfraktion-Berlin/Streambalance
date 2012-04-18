@@ -6,7 +6,7 @@ This is a stream balancer for streams based on Django. It has a public interface
 
 The interface is based on Twitter Bootsrap which can be found [here](http://twitter.github.com/bootstrap/) 
 
-We also use a slightly modified version of icecast_balancer a Djago App by FladischerMichael
+We also use a slightly modified version of icecast_balancer a Djago App by [FladischerMichael](http://wiki.fladi.at/bin/view/Projects/DjangoIcecastBalancer)
 
 ## Status
 
